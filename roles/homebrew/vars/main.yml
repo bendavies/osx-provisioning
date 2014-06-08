@@ -1,4 +1,45 @@
 ---
+homebrew_update: false
+caskroom_dir: /usr/local/caskroom
+application_dir: /Applications
+
+#TODO: move to dotfiles
+cask_env:
+  HOMEBREW_CASK_OPTS: "--appdir={{ application_dir }} --caskroom={{ caskroom_dir }}"
+
 taps:
   - homebrew/dupes
   - caskroom/cask
+
+brews:
+  - ack
+  - brew-cask
+  - curl
+  - dnsmasq
+  - git
+  - htop-osx
+  - icu4c
+  - imagemagick
+  - rsync
+  - wget
+  - youtube-dl
+
+casks:
+  - alfred
+  - firefox
+  - google-chrome
+  - handbrake
+  - hipchat
+  - iterm2
+  - kdiff3
+  - libreoffice
+  - limechat
+  - mou
+  - robomongo
+  - sequel-pro
+  - spotify
+  - the-unarchiver
+  - transmit
+  - vagrant
+  - virtualbox
+  - vlc
