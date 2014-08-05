@@ -8,8 +8,9 @@ cask_env:
   HOMEBREW_CASK_OPTS: "--appdir={{ application_dir }} --caskroom={{ caskroom_dir }}"
 
 taps:
-  - homebrew/dupes
   - caskroom/cask
+  - homebrew/dupes
+  - thoughtbot/formulae
 
 brews:
   - ack
@@ -20,6 +21,7 @@ brews:
   - htop-osx
   - icu4c
   - imagemagick
+  - rcm
   - rsync
   - wget
   - youtube-dl
