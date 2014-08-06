@@ -10,6 +10,8 @@ cask_env:
 taps:
   - caskroom/cask
   - homebrew/dupes
+  - homebrew/homebrew-php
+  - homebrew/versions
   - thoughtbot/formulae
 
 brews:
@@ -19,9 +21,14 @@ brews:
   - dnsmasq
   - git
   - htop-osx
+  - httpie
   - icu4c
   - imagemagick
+  - npm
   - rcm
+  - php55
+  - php55-intl
+  - php55-mongo
   - rsync
   - wget
   - youtube-dl
@@ -29,8 +36,10 @@ brews:
 
 casks:
   - alfred
+  - dropbox
   - firefox
   - google-chrome
+  - gpgtools
   - handbrake
   - hipchat
   - iterm2
@@ -38,8 +47,10 @@ casks:
   - libreoffice
   - limechat
   - mou
+  - parallels
   - robomongo
   - sequel-pro
+  - slack
   - spotify
   - the-unarchiver
   - transmit
