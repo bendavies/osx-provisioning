@@ -25,6 +25,7 @@ brews:
   - rsync
   - wget
   - youtube-dl
+  - zsh
 
 casks:
   - alfred
