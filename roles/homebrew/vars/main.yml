@@ -10,7 +10,7 @@ cask_env:
 taps:
   - caskroom/cask
   - homebrew/dupes
-  - homebrew/homebrew-php
+  - homebrew/php
   - homebrew/versions
   - thoughtbot/formulae
 
