@@ -9,9 +9,9 @@ Provision:
 
 Provisioning work computer?
 
-```ansible-playbook macbook.yml --extra-vars="email=ben@work.com"```
+```ansible-playbook macbook.yml --extra-vars "email=ben@work.com"```
 
 Want to update all brews?
 
-```ansible-playbook macbook.yml --extra-vars="homebrew_update=true"```
+```ansible-playbook macbook.yml --extra-vars "homebrew_update=true"```
 
