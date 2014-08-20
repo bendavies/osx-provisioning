@@ -27,7 +27,6 @@ brews:
   - npm
   - rcm
   - php55
-  - php55-intl
   - php55-mongo
   - rsync
   - wget
