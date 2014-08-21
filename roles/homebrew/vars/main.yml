@@ -15,23 +15,23 @@ taps:
   - thoughtbot/formulae
 
 brews:
-  - ack
-  - brew-cask
-  - curl
-  - dnsmasq
-  - git
-  - htop-osx
-  - httpie
-  - icu4c
-  - imagemagick
-  - npm
-  - rcm
-  - php55
-  - php55-mongo
-  - rsync
-  - wget
-  - youtube-dl
-  - zsh
+  - { name: ack }
+  - { name: brew-cask }
+  - { name: curl }
+  - { name: dnsmasq }
+  - { name: git }
+  - { name: htop-osx }
+  - { name: httpie }
+  - { name: icu4c }
+  - { name: imagemagick }
+  - { name: npm }
+  - { name: rcm }
+  - { name: php55, options: with-imap }
+  - { name: php55-mongo }
+  - { name: rsync }
+  - { name: wget }
+  - { name: youtube-dl }
+  - { name: zsh }
 
 casks:
   - alfred
