@@ -4,11 +4,11 @@
   when: homebrew_update
 
 - name: Install formulas via Homebrew
-  homebrew: name={{ item.name }} install_options={{ item.options | default() }} state=latest
+  homebrew: name={{ item.name }} install_options={{ item.options | default() }} state=upgraded
   with_items: brews
 
 - name: Install casks via Homebrew cask
-  homebrew_cask: name={{ item }} state=present
+  homebrew_cask: name={{ item }} state=installed
   with_items: casks
   environment: cask_env
 
