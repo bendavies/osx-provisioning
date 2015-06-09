@@ -16,6 +16,7 @@ taps:
 
 brews:
   - { name: ack }
+  - { name: ant }
   - { name: brew-cask }
   - { name: curl }
   - { name: dnsmasq }
@@ -26,8 +27,7 @@ brews:
   - { name: imagemagick }
   - { name: npm }
   - { name: rcm }
-  - { name: php55, options: with-imap }
-  - { name: php55-mongo }
+  - { name: php56 }
   - { name: rsync }
   - { name: wget }
   - { name: youtube-dl }
@@ -42,11 +42,11 @@ casks:
   - handbrake
   - hipchat
   - iterm2
+  - java
   - kdiff3
   - libreoffice
   - limechat
   - mou
-  - parallels
   - robomongo
   - sequel-pro
   - slack
@@ -55,5 +55,6 @@ casks:
   - the-unarchiver
   - transmit
   - vagrant
+  - vagrant-manager
   - virtualbox
   - vlc
