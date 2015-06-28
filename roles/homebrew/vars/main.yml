@@ -34,19 +34,16 @@ brews:
 
 casks:
   - alfred
-  - dropbox
   - firefox
   - google-chrome
   - gpgtools
   - handbrake
-  - hipchat
   - iterm2
   - java
   - kdiff3
   - libreoffice
   - limechat
   - mou
-  - robomongo
   - sequel-pro
   - slack
   - sourcetree
