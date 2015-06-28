@@ -1,11 +1,10 @@
 ---
 homebrew_update: false
-caskroom_dir: /usr/local/caskroom
 application_dir: /Applications
 
 #TODO: move to dotfiles
 cask_env:
-  HOMEBREW_CASK_OPTS: "--appdir={{ application_dir }} --caskroom={{ caskroom_dir }}"
+  HOMEBREW_CASK_OPTS: "--appdir={{ application_dir }}"
 
 taps:
   - caskroom/cask

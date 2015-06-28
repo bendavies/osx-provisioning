@@ -11,9 +11,3 @@
   homebrew_cask: name={{ item }} state=installed
   with_items: casks
   environment: cask_env
-
-- name: Modify alfred scope to include caskroom
-  shell: brew cask alfred link
-  register: result
-  changed_when: result.stdout.find('Successfully linked') != -1
-  environment: cask_env
